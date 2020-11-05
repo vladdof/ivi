@@ -1,11 +1,13 @@
 *
 	box-sizing: border-box
 	outline: none
+
 body
 	background-color: #ffffff
 	color: #323232
 	font-family: 'Roboto', sans-serif
 	font-weight: 400
+
 .container
 	width: 100%
 	max-width: 968px
@@ -23,6 +25,7 @@ body
 		flex-direction: column
 		justify-content: space-between
 		background-color: #ec174f
+
 	&_screw
 		width: 200%
 		height: 25%
@@ -38,6 +41,7 @@ body
 		transform: translateY(-50%)
 		color: #ffffff
 		font-size: 26px
+
 		.div_hidden
 			height: 100%
 			white-space: normal
@@ -49,23 +53,27 @@ body
 		align-items: center
 		margin: 0 15px 15px 15px
 		color: #ec174f
+
 		span
 			padding: 2px 5px
 			background-color: #ffffff
 
 .items
+
 	&_wrap
 		margin-top: 30px
 		padding: 0 15px
-		// display: flex
+
 	.item
 		display: flex
 		align-items: center
 		margin-top: 15px
+
 		&_p
 			max-width: 80%
 			margin-left: 15px
 			font-size: 18px
+
 		.number
 			color: #ffffff
 			font-size: 24px
@@ -79,15 +87,17 @@ body
 
 @media (max-width: 992px)
 	.container
-  		max-width: 960px
+		max-width: 960px
 
 @media (max-width: 768px)
 	.banner_wrap
 		height: 300px
+
 	.banner_title
 		height: 69px
 		transform: translateY(-35%)
 		font-size: 34px
+
 	.banner_sd
 		span
 			font-size: 20px
@@ -95,27 +105,32 @@ body
 		.item
 			&_p
 				font-size: 20px
+
 			.number
 				width: 60px
 				height: 60px
 				font-size: 30px
 				line-height: 60px
+
 	.container
-  	    max-width: 720px
-  	    width: 100%
+		max-width: 720px
+		width: 100%
 
 @media (max-width: 576px)
 	.banner_wrap
 		height: 200px
+
 	.banner_title
 		height: 69px
 		transform: translateY(-30%)
 		font-size: 34px
+
 	.banner_sd
 		span
 			font-size: 22px
+
 	.container
-    	max-width: 540px
+		max-width: 540px
 
 @media (max-width: 450px)
 	.items
@@ -127,13 +142,16 @@ body
 	.banner_title
 		height: 53px
 		font-size: 26px
+
 	.banner_sd
 		span
 			font-size: 20px
+
 	.items
 		.item
 			&_p
 				font-size: 18px
+
 			.number
 				width: 56px
 				height: 56px
